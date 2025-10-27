@@ -472,7 +472,7 @@
 }
 
 .budget{
-    padding-top: 30px;
+    padding-top: 60px;
     padding-left: 26px;
     font-family:"Oswald", sans-serif;
     font-weight: 500;
@@ -480,6 +480,22 @@
 }
 
 .budget-main-cards{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding-left: 26px;
+    padding-top: 30px;
+}
+
+.untie{
+    padding-top: 70px;
+    padding-left: 26px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.untie-main-cards{
     display: flex;
     justify-content: start;
     gap: 20px;
