@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@
 .left-nav{
     display: flex;
     justify-content: start;
-    gap: 20px;
+    gap: 15px;
 }
 
 .right-nav{
@@ -24,18 +26,37 @@
     gap: 30px;
 }
 
+.baricon{
+    padding-top: 10px;
+}
+
 .all-sports{
     display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.decathlon-icon{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.search-bar{
+    padding-left: 30px;
 }
 
 .search-bar input{
     border-radius: 20px;
-    width: 500px;
+    width: 550px;
     height: 40px;
     border: none;
     outline: none;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(245, 245, 245);
     padding-left: 20px;
+    font-family:"Oswald", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size:16px;
 }
 
 
@@ -44,8 +65,223 @@
     display: block;
 }
 
+.delivery-location{
+    font-family: "Oswald", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
 .number-change{
     display: flex;
     gap: 5px;
 }
 
+.number{
+    color:rgb(0, 61, 165);
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+}
+
+.change{
+    color:rgb(0, 61, 165);
+    font-family: "Oswald", sans-serif;
+    font-size:15px;
+    border-bottom: 1px solid rgb(0, 61, 165);
+}
+
+.logo-main-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.first-nav-logo p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight:500 ;
+}
+
+.select-main-cards{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    padding-top: 50px;
+    padding-left: 95px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    font-weight: 500;
+}
+
+.main-big-img{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.second-main-select-cards{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    padding-top: 50px;
+    padding-left: 95px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.pop-pro{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;    
+    color: rgb(101, 114, 123);
+    font-weight: 500;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.pro-main-cards{
+    display: flex;
+    justify-content:start;
+    gap: 40px;
+    padding-left: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pro-cards{
+    border: 2px solid rgb(240, 240, 240);
+    width: 260px;
+    height: 450px;
+}
+
+.pro-img{
+    display: inline-block;
+    position: absolute;
+}
+
+.great{
+   position: relative; 
+}
+
+.great button{
+    border-radius: 0px;
+    background-color: rgb(234, 233, 255);
+    border: none;
+    font-size: x-small;
+    font-weight: 550;
+    color: rgb(58, 58, 58);
+    width: 60px;
+    height: 25px;
+}
+
+.new-arrival{
+   position: relative; 
+}
+
+.new-arrival button{
+    border-radius: 0px;
+    background-color: rgb(234, 233, 255);
+    border: none;
+    font-size: xx-small;
+    font-weight: 550;
+    color: rgb(58, 58, 58);
+    width: 80px;
+    height: 25px;
+}
+
+.rate-wish{
+    display:flex;
+    gap: 115px;
+    position: relative;
+    padding-top: 220px;
+    padding-bottom: 30px;
+}
+
+.rate-wish-extra{
+    display:flex;
+    gap: 115px;
+    position: relative;
+    padding-top: 195px;
+    padding-bottom: 30px;
+}
+
+.rate{
+    padding-left: 10px;
+}
+
+.rate button{
+    display: flex;
+    padding-left: 6px;
+    gap: 10px;
+    width: 100px;
+    height: 28px;
+    align-items: center;
+    border: 1px solid rgb(202, 201, 201);
+    background-color: white;
+}
+
+.rate button p{
+    color:rgb(0, 61, 165) ;
+    font-size: small;
+    font-weight: 400;
+    font-family:"Oswald", sans-serif;
+}
+
+.pro-head{
+    font-family:"Oswald", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.pro-para{
+    font-family:"Oswald", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+.pro-rate-off{
+    display: flex;
+    gap: 12px;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 11px;
+    font-family:"Oswald", sans-serif;
+}
+
+.pro-rate{
+    font-weight: 500;
+}
+
+.pro-origin-rate{
+    text-decoration: line-through;
+}
+
+.pro-offer button{
+    border: none;
+    background-color: rgb(255, 203, 105);
+    font-size: 11px;
+    font-family:"Oswald", sans-serif;
+    width: 45px;
+    height: 20px;
+}
+
+.cart-button {
+    padding-top: 39px;
+    text-align: center;
+}
+
+.cart-button button{
+    width: 245px;
+    height: 40px;
+    font-family:"Oswald", sans-serif;
+    border-radius: 0px;
+    border: 1px solid rgb(153, 152, 152);
+    background: none;
+}
