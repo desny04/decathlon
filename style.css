@@ -581,7 +581,7 @@
 
 .experience-app{
     background-color: rgb(245, 245, 245);
-    width: 350px;
+    width: 380px;
     height: 108px;
 }
 
@@ -597,13 +597,13 @@
     display: flex;
     gap: 10px;
     padding-top: 15px;
-    padding-left: 48px;
+    padding-left: 62px;
 }
 
 .support-follow{
-    padding-top: 10px;
+    padding-top: 5px;
     display: flex;
-    gap: 4px;
+    gap: 3px;
 }
 
 .main-card-oflist{
@@ -636,7 +636,7 @@
 
 .follow-app{
     background-color: rgb(245, 245, 245);
-    width: 350px;
+    width: 380px;
     height: 320px;
     border-radius: 4px;
 }
@@ -652,21 +652,21 @@
 .app-logos{
     display: flex;
     gap: 50px;
-    padding-left: 38px;
-    padding-top: 20px;
+    padding-left: 50px;
+    padding-top: 22px;
 }
 
 .follow-head{
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    padding-left: 38px;
+    padding-left: 50px;
     padding-top: 30px;
 }
 
 .follow-button{
     padding-top: 10px;
-    padding-left: 38px;
+    padding-left: 50px;
 }
 
 .follow-button button{
@@ -676,9 +676,102 @@
     border: none;
     background-color: white;
     font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    color: rgb(85, 85, 85);
+}
+
+.line1{
+    margin-left: 20px;
+    border-top: 1px solid rgb(183, 183, 183);
+    padding-bottom: 30px;
+    width: 1104px;
+    margin-top: -10px;
+}
+
+.secure-pay-country{
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.diamond-secure{
+    display: flex;
+    gap: 11px;
+}
+
+.secure-trans{
+    font-family: "Oswald", sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: rgb(64, 64, 64);
+}
+
+.ssl-encryp{
+    font-family: "Oswald", sans-serif;
     font-size: 14px;
     font-weight: 350;
     color: rgb(85, 85, 85);
+}
+
+.pay-methods{
+    display: flex;
+    gap: 11px;
+}
+
+.site-map{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    font-weight: 350;
+    color: rgb(85, 85, 85);
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    border-left: 1px solid rgb(183, 183, 183) ;
+    border-right: 1px solid rgb(183, 183, 183) ;
+}
+
+.site-map p{
+    padding-top: 5px;
+}
+
+.decathlon-country{
+    display: flex;
+    gap: 11px;
+}
+
+.decathlon-present{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.countries button{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 0;
+}
+
+.line2{
+    padding-top: 30px;
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(183, 183, 183);
+    width: 1104px;
+}
+
+.all-rights{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 11px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 350;
+    letter-spacing: 0.5px;
 }
 
 
