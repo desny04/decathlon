@@ -9,9 +9,14 @@
     display: flex;
     justify-content: start;
     gap: 50px;
-    padding-top: 40px;
+    padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
+    position: fixed;
+    width: 100%;
+    z-index:100;
+    background-color: white;
+    height: 70px;
 }
 
 .left-nav{
@@ -108,7 +113,7 @@
     display: flex;
     justify-content: start;
     gap: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 95px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
